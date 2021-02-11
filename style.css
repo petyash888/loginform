@@ -1,0 +1,70 @@
+<style>
+
+/*    background: url("background.png") no-repeat center center fixed;*/
+/*    background: purple;*/
+/*
+    font-family: Calibri, Helvetica, sans-serif;
+    font-weight: bold;
+*/
+   
+body {
+/*
+  font-family: Calibri, Helvetica, sans-serif;
+    font-weight: bold;
+*/
+}
+
+
+input[type=text], input[type=password] {   
+
+    padding: 8px 8px;   
+
+    border: 1px solid black; 
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 150px;
+    margin-left: 5px;
+    box-sizing: border-box;  
+    border-radius: 5px 5px;
+    display:block;
+}  
+button {   
+    background-color: grey;   
+    color: black;   
+    padding: 10px;   
+    margin: 10px 10px;   
+    border: 1px solid;   
+    cursor: pointer;
+    border-radius: 5px 5px;
+    font-weight: bold;
+}   
+label {
+    font-family: Calibri, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+div.btn {
+    margin-left: 8px;
+}
+
+.container {   
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightgray;  
+}   
+
+p {
+    text-align: center;
+}
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+}
+
+</style>

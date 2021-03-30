@@ -4,14 +4,30 @@
         <meta charset="UTF-8">
         <title>My Web Page</title>
     </head>
-       <style>
+    <style>
         body {
             background: url("background.png") no-repeat center center fixed;
         }
     </style>
-     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <body>
         <h1>SIGN UP</h1>
+        <form>  
+            <div class="container">   
+                <select name="gender" id="gender">
+                    <option value="mr">Mr</option>
+                    <option value="mrs">Mrs</option>
+                    <option value="miss">Miss</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <label>Name :</label>   
+                <input type="text" placeholder="Enter personal name" id="name">  
+
+                <label>Surname : </label>   
+                <input type="text" placeholder="Enter surname" id="surname">
+            </div>
+        </form>
         <a href="index.html"><button type="home">Back to home page</button></a>
 
     </body>

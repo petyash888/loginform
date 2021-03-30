@@ -44,7 +44,12 @@ div.btn {
     margin-right: 150px;
     margin-left: 80px;
     background-color: lightgray;  
+    
 }   
+
+select {
+    margin: 8px;
+}
 
 .recaptcha {
     margin: 8px;

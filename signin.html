@@ -3,12 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>My Web Page</title>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
-    <style>
-        body {
-            background: url("background.png") no-repeat center center fixed;
-        }
-    </style>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <body>
         <center> <h1>SIGN IN</h1> </center>   
@@ -18,12 +14,16 @@
                 <input type="text" placeholder="Enter Email Address" id="emailAddress">  
 
                 <label>Password : </label>   
-                <input type="password" placeholder="Enter Password" id="password"> 
-
+                <input type="password" placeholder="Enter Password" id="password">
+                <div class="recaptcha">
+                    <form action="?" method="POST">
+                        <div class="g-recaptcha" data-sitekey="6LeoM5UaAAAAADWD6daWScXn4tTg8Cyss6ammJWF"></div>
+                    </form>
+                </div>
                 <button type="submit" onclick="login()">Login</button>   
                 <input type="checkbox" checked="checked" id="checkbox"> Remember me    
             </div>
-        </form>     
+        </form>
         <a href="index.html"><button type="home">Back to home page</button></a>
 
     </body>

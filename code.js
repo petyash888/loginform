@@ -16,9 +16,9 @@ function login(){
 
     var checked = document.getElementById("checkbox").checked;
     console.log(checked);
-    //    if(checked == true){
-    //        document.getElementById("emailAddress").value = emailAddress;
-    //    }
+        if(checked == true){
+            document.getElementById("emailAddress").value = emailAddress;
+        }
 
 }
 

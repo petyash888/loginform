@@ -1,19 +1,7 @@
-<style>
 
-/*    background: url("background.png") no-repeat center center fixed;*/
-/*    background: purple;*/
-/*
-    font-family: Calibri, Helvetica, sans-serif;
-    font-weight: bold;
-*/
-   
 body {
-/*
-  font-family: Calibri, Helvetica, sans-serif;
-    font-weight: bold;
-*/
+    background: url("background.png") no-repeat center center fixed;
 }
-
 
 input[type=text], input[type=password] {   
 
@@ -58,6 +46,10 @@ div.btn {
     background-color: lightgray;  
 }   
 
+.recaptcha {
+    margin: 8px;
+}
+
 p {
     text-align: center;
 }
@@ -66,5 +58,3 @@ h1 {
     color:aliceblue;
     text-align: center;
 }
-
-</style>

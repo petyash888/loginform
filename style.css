@@ -45,7 +45,11 @@ div.btn {
     margin-left: 80px;
     background-color: lightgray;  
     padding: 10px;
-    background: url("background_transparent.png");
+    background: url("background_transparent.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }   
 
 select {
@@ -71,7 +75,7 @@ h1 {
 font-style: italic;
 font-family: cursive;
 color: aliceblue;
-font-size: 35px;
+font-size: 20px;
 }
 #error {
 font-style: normal;
@@ -80,3 +84,12 @@ color: red;
 font-weight: bolder;
 text-align: left;
 }
+.top_banner {
+    border: 0;
+}
+/* .city_temp{
+    border: 0
+}
+.city_name{
+    border: 0
+} */

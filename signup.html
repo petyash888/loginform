@@ -4,32 +4,36 @@
         <meta charset="UTF-8">
         <title>My Web Page</title>
     </head>
-    <style>
-        body {
-            background: url("background.png") no-repeat center center fixed;
-        }
-    </style>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <body>
         <h1>SIGN UP</h1>
         <form>  
             <div class="container">   
+                <p id="error"></p>
                 <select name="gender" id="gender">
-                    <option value="mr">Mr</option>
-                    <option value="mrs">Mrs</option>
-                    <option value="miss">Miss</option>
-                    <option value="other">Other</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Other">Other</option>
                 </select>
-                <br>
-                <label>Name :</label>   
+            </br>
+                <label>Name: </label>   
                 <input type="text" placeholder="Enter personal name" id="name">  
 
-                <label>Surname : </label>   
+                <label>Surname: </label>   
                 <input type="text" placeholder="Enter surname" id="surname">
+                <label>Birthday:</label>
+                <input type="date" id="birthdate">
             </div>
         </form>
+        <p id="userInformation"></p>
+        <div>
+            <button onClick="loadUserInfo()">Submit</button>
+        </div>
         <a href="index.html"><button type="home">Back to home page</button></a>
+
 
     </body>
     <script src="code.js"></script>
+    <!-- <script type="module" src="code.js"></script> -->
 </html>

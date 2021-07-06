@@ -3,7 +3,7 @@ body {
     background: url("background.png") no-repeat center center fixed;
 }
 
-input[type=text], input[type=password] {   
+input[type=text], input[type=password], input[type=date] {   
 
     padding: 8px 8px;   
 
@@ -44,7 +44,8 @@ div.btn {
     margin-right: 150px;
     margin-left: 80px;
     background-color: lightgray;  
-    
+    padding: 10px;
+    background: url("background_transparent.png");
 }   
 
 select {
@@ -62,4 +63,20 @@ p {
 h1 {
     color:aliceblue;
     text-align: center;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#userInformation, #ageInformation {
+font-style: italic;
+font-family: cursive;
+color: aliceblue;
+font-size: 35px;
+}
+#error {
+font-style: normal;
+font-family: cursive;
+color: red;
+font-weight: bolder;
+text-align: left;
 }
